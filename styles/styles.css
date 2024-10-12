@@ -16,7 +16,7 @@ header {
 header .logo img {
     width: 80px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 nav ul {
@@ -42,7 +42,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
+    background: url('media/hero-image.png') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 150px 20px;
