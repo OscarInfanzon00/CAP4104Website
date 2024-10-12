@@ -1,0 +1,125 @@
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+/* Persona Card Styles */
+.persona-card {
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin: 10px; 
+    flex: 0 1 calc(45% - 20px); 
+    text-align: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Persona Image Styles */
+.persona-image {
+    width: 40%; 
+    height: auto; 
+    border-radius: 12px; 
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 80px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Hover Effects for Cards */
+.persona-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/*Persona card details*/
+.persona-card-details {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px; /* Limit width */
+    margin: 20px auto; /* Center the card */
+    font-family: 'Arial', sans-serif;
+}
+
+.persona-card-details h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.persona-card-details img.persona-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Round image */
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+.persona-card-details h3 {
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: #4CAF50;
+}
+
+.persona-card-details p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #666;
+}
+
+.persona-card-details ul {
+    margin-left: 20px;
+}
+
+.persona-card-details blockquote {
+    font-style: italic;
+    background-color: #f9f9f9;
+    border-left: 5px solid #4CAF50;
+    padding: 10px 15px;
+    margin: 15px 0;
+    color: #555;
+}
+
+.persona-card-details strong {
+    color: #333;
+}
+
