@@ -6,7 +6,16 @@ main {
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between; 
+    align-items: center;
+    justify-content: center;
 }
+
+/*Image Styles*/
+img {
+    width: 800px;
+    height: auto; 
+}
+
 
 /* Persona Card Styles */
 .persona-card {
@@ -75,8 +84,8 @@ footer p {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    max-width: 600px; /* Limit width */
-    margin: 20px auto; /* Center the card */
+    max-width: 600px; 
+    margin: 20px auto; 
     font-family: 'Arial', sans-serif;
 }
 
@@ -89,7 +98,7 @@ footer p {
 .persona-card-details img.persona-image {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Round image */
+    border-radius: 50%; 
     object-fit: cover;
     margin: 10px 0;
 }
