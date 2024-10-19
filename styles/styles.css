@@ -42,7 +42,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('../media/hero-image.png') no-repeat center center/cover ;
+    background: url('../media/hero-image.png') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 150px 20px;
@@ -98,6 +98,11 @@ nav ul li a:hover {
 
 #team h2 {
     color: #4CAF50;
+    margin-bottom: 5px;
+}
+
+#team h4 {
+    color: #4CAF50;
     margin-bottom: 40px;
 }
 
@@ -123,6 +128,102 @@ nav ul li a:hover {
     color: #4CAF50;
     margin: 10px 0;
 }
+
+/* Contributions Section */
+#contributions {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contributions h2 {
+    color: #4CAF50;
+    margin-bottom: 30px;
+}
+
+.contributions-member {
+    text-align: left; /* Align text to the left for better readability */
+    max-width: 800px; /* Optional: Restricts width for better readability */
+    margin: 20px auto; /* Centers the member section */
+    padding: 15px;
+    border: 1px solid #ddd; /* Adds a border for separation */
+    border-radius: 5px; /* Rounds the corners */
+    background-color: #f9f9f9; /* Light background color for each member section */
+}
+
+.contributions-member h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.contributions-member ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contributions-member ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Optional: Add hover effect for contributions */
+.contributions-member:hover {
+    background-color: #e0f7e0; /* Light green background on hover */
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Research Section Styles */
+#research {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: left; /* Align text to the left for better readability */
+}
+
+#research h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+#research h2 {
+    color: #4CAF50;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#research p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
 
 /* Footer */
 footer {
