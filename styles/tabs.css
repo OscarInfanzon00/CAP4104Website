@@ -179,3 +179,80 @@ h1 {
         width: 90%;
     }
 }
+
+/*Slideshows Styles*/
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slides {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+/* Arrow styling */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.prev {
+    left: -50px; /* Moves the left arrow out of the image */
+}
+
+.next {
+    right: -50px; /* Moves the right arrow out of the image */
+}
+
+.slideshow-container img {
+    width: 100%;
+}
+
+/* Dots indicator styling */
+.dots-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+/* Page header and description styling */
+.page-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.page-header p {
+    font-size: 1.2em;
+    color: #666;
+}

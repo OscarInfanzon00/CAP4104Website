@@ -15,14 +15,54 @@
         </div>
     </header>
 
+    <div class="page-header">
+        <h1>StoryBoard</h1>
+        <p>Our website serves as an Online Hub to find study documents. Have not you heard of us?</p>
+    </div>
+
     <main>
-        <div>
-            <img src="../../media/Storyboard/StoryBoard.png" alt="Storyboard">
+        <div class="slideshow-container">
+            <div class="slides active">
+                <img src="../../media/Storyboard/1.png" alt="Storyboard 1">
+            </div>
+            <div class="slides">
+                <img src="../../media/Storyboard/2.png" alt="Storyboard 2">
+            </div>
+            <div class="slides">
+                <img src="../../media/Storyboard/3.png" alt="Storyboard 3">
+            </div>
+            <div class="slides">
+                <img src="../../media/Storyboard/4.png" alt="Storyboard 4">
+            </div>
+            <div class="slides">
+                <img src="../../media/Storyboard/5.png" alt="Storyboard 5">
+            </div>
+            <div class="slides">
+                <img src="../../media/Storyboard/6.png" alt="Storyboard 6">
+            </div>
+            <div class="slides">
+                <img src="../../media/Storyboard/7.png" alt="Storyboard 7">
+            </div>
+
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+
+        <div class="dots-container">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
         </div>
     </main>
 
     <footer>
         <p>&copy; 2024 Online Tutoring Platform for Students. FIU Project for CAP 4104.</p>
     </footer>
+
+    <script src="../../javascript/slideshow.js"></script>
 </body>
 </html>
