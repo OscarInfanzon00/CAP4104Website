@@ -242,6 +242,12 @@ footer p {
     line-height: 1.6;
 }
 
+.image-container img {
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Footer */
 footer {
     background-color: #4CAF50;
